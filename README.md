@@ -6,6 +6,8 @@ This is a simple 'quick n simple' Python-Flask application tutorial for general 
 
 Flask is a Model-View-Controller (MVC) framework (see [this page](https://www.guru99.com/mvc-vs-mvvm.html) for some insight to what MVC is and isnt, and also Real Python's [MVC Explained](https://realpython.com/the-model-view-controller-mvc-paradigm-summarized-with-legos/) page for more details.
 
+This readme will walk through the steps to make a basic unser-interactive web-application using Flask and Python (and a few other simple additions that are easy to install).  If you just want to look at the final product, look at the [app.py](app.py) file where it is all completed and comments, docstrings, and more are added to help explain things.
+
 ## Getting started
 
 Create the Python virtual environment - this only needs doing ONCE
@@ -24,7 +26,7 @@ Install the requirements file like so (update this file everytime you permanentl
 
     pip install -r requirements.txt
 
-## 'hello world!' - the beginning of the code
+## Hello world! - a static beginning
 
 Create a file named `app.py` that is parallel to the `requirements.txt` file and the virtual environment (`venv`) folder with the following content:
 
@@ -58,3 +60,5 @@ Now that the applicatrion is running, browse the local system on port `5000` (ty
     * Debugger PIN: 290-425-530
     127.0.0.1 - - [25/Apr/2021 12:04:00] "GET / HTTP/1.1" 200 -
     127.0.0.1 - - [25/Apr/2021 12:04:01] "GET /favicon.ico HTTP/1.1" 404 -
+
+## Forms - interacting with users
