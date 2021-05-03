@@ -18,6 +18,10 @@ Activate (e.g. use) the virtual enviroment - do this EVERY time
 
     source venv/bin/activate
 
+For Windows command line:
+
+    venv\Scripts\activate
+
 Create a 'requirements.txt' file that lists all of the libraries that we will use. For now, just add the following line:
 
     Flask==1.1.2
@@ -33,7 +37,7 @@ Create a file named `app.py` that is parallel to the `requirements.txt` file and
     from flask import Flask
 
     app = Flask(__name__)
-
+export 
     @app.route("/")
     def index():
         return "Hello World!"
@@ -42,6 +46,12 @@ Run this minimalist web application with the following commands:
 
     export FLASK_ENV=development
     export FLASK_APP=app.py
+    flask run
+
+For Windows command line:
+
+    set FLASK_ENV=development
+    set FLASK_APP=app.py
     flask run
 
 Exporting the `FLASK_ENV` as `development` enables some nice features that we will explore later on (see Visual Studio's [Run the App Debugger](https://code.visualstudio.com/docs/python/tutorial-flask#_run-the-app-in-the-debugger) page fore more info on how to setup/use it from within VS), and disables some anoying reminders to NOT use this in 'production' without a proper WSGI (or similar interface).
