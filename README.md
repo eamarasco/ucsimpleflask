@@ -1,12 +1,12 @@
 # A simple Flask Application 
 
-First off, this is all largely borrowed from [RealPython](https://realpython.com/flask-by-example-part-1-project-setup/) and various other sites, pages, and people - not really anything that I have contributed.
+First off, this is all largely borrowed from [RealPython](https://realpython.com/flask-by-example-part-1-project-setup/) and various other sites, pages, and people - not really anything that I have contributed organicly.
 
-This is a simple 'quick n simple' Python-Flask application tutorial for general useage of Python/Flask, forms processing (GUI), and local deployment/dubugging. This will help a new Pythonista learn how to set up a basic web server application in Python with Flask running on a local server, and assumes that the the developer is using Visual Studio Code as their IDE of choice.
+This is a simple 'quick n simple' Python-Flask application tutorial written for general useage of Python/Flask, forms processing (GUI), and local deployment/dubugging. This will help a new (but probably not noob) Pythonista learn how to set up a basic web server application in Python with Flask running on a local server, and assumes that the the developer is using Visual Studio Code as their IDE of choice.
 
 Flask is a Model-View-Controller (MVC) framework (see [this page](https://www.guru99.com/mvc-vs-mvvm.html) for some insight to what MVC is and isnt, and also Real Python's [MVC Explained](https://realpython.com/the-model-view-controller-mvc-paradigm-summarized-with-legos/) page for more details.
 
-This readme will walk through the steps to make a basic unser-interactive web-application using Flask and Python (and a few other simple additions that are easy to install).  If you just want to look at the final product, look at the [app.py](app.py) file where it is all completed and comments, docstrings, and more are added to help explain things.
+This readme will walk through the steps to make a basic user-interactive web-application using Flask and Python (and a few other simple additions that are easy to install).  If you just want to look at the final product, look at the [app.py](app.py) file where it is all completed and comments, docstrings, and more are added to help explain things.
 
 ## Getting started
 
@@ -62,3 +62,5 @@ Now that the applicatrion is running, browse the local system on port `5000` (ty
     127.0.0.1 - - [25/Apr/2021 12:04:01] "GET /favicon.ico HTTP/1.1" 404 -
 
 ## Forms - interacting with users
+
+...TBD/In progress ;)
